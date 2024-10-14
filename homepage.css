@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'TitleFont';
+    src: url('/fonts/cursyger.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SecondFont';
+    src: url('/fonts/Stepalange.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'SecondFont', sans-serif;
+    background-color: rgb(25, 25, 25);
+    color: whitesmoke;
+}
+
+.container {
+    text-align: right;
+    padding: 20px 100px;
+}
+
+.name {
+    font-family: 'TitleFont', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.fields {
+    font-family: 'SecondFont', sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.container2 {
+    position: fixed;
+    bottom: 75px;
+    left: 110px;
+}
+
+.container2 p {
+    font-size: 30px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.container2 p:hover {
+    transform: scale(1.2);
+}
+
+.container2 a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.container2 a:hover {
+    color: #00BFFF; 
+}

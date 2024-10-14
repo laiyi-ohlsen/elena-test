@@ -1,0 +1,95 @@
+
+@font-face {
+    font-family: 'TitleFont';
+    src: url('/fonts/cursyger.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SecondFont';
+    src: url('/fonts/Stepalange.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'SecondFont', sans-serif;
+    background-color: rgb(25, 25, 25);
+    color: whitesmoke;
+}
+
+.projectContainer {
+    max-width: 1000px;
+    margin: 50px auto;   
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    margin-top: 70px;
+    font-family: 'TitleFont', sans-serif;
+    font-size: 36px;
+}
+
+h2 {
+    text-align: left;
+    margin: 20px 0;
+    font-family: 'TitleFont', sans-serif;
+    font-size: 20px;
+    margin-top: 60px;
+    border-bottom: 2px solid rgb(220, 220, 220);
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.9;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+
+.align {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+}
+
+.image-gallery img {
+    width: 220px;
+    height: 350px;
+    border-radius: 7px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    object-fit: cover;
+}
+
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.arrow {
+    font-family: 'SecondFont', sans-serif;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    font-size: 80px;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.arrow:hover {
+    color: #00BFFF;
+    transform: scale(1.2);
+}

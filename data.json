@@ -1,0 +1,139 @@
+{
+    "firstName": "Elena",
+    "lastName": "Han",
+    "fields": "Design & Technology",
+    "about": {
+        "skills": ["Programming(HTML/CSS)", "Arduino Uno", "Unity"],
+        "interests": ["Tech", "Art", "Game", "Music"],
+        "introduction": "Currently a junior at Parsons School of Design, majoring in Design and Technology."
+    },
+    "portfolio": {
+        "InteractiveDesign": {
+            "project1": {
+                "name": "Quest",
+                "medium": "Unity",
+                "year": "May, 2024",
+                "description": "This is a pixel game I developed using Unity, named 'Quest'. The story takes place in a fictional universe where there are two different forces. The protagonist represents one of these forces and will collect two badges in the game, find a hidden mysterious space, and gather script fragments to complete the game.",
+                "backgroundStory": "The Rift is named for its terrain, with a rapid river flowing through the immense canyon, it is undoubtedly a perilous place. Located near the frigid regions of the world, mountains surrounding the canyon are blanketed in glistening white snow. Towering peaks of rugged rock basking in sunlight throughout the year, yet the snow rarely melts. Situated in a remote and cragged terrain, Located far from civilization, the Rift is rarely visited. In this secluded and challenging land, Ultras and a small population of humans coexist.   Ultras on Earth are a rare minority. Due to their extraordinary abilities and capability to control various elements, Ultras are always treated specially among ordinary people. They are loathed, discriminated against, and relegated to the fringes, excluded from residing within human civilization and society. As a result, most Ultras gather in the Rift away from civilization.   In the vast canyon, two distinct sects were active: the Dove and the Raven. The Dove, known for their reverence of the sun, embodied ideals of brightness and peace. Regarded as Seers by distant human civilizations, they held a long-standing reputation of goodwill. Many Ultras, once arriving at the canyon, converted to the Dove, further fostering respect and love from humans. For everyman, they can hardly associate the Seers with the Ultras they despise. This hidden truth is known only to the rulers: the esteemed Seers are, in fact, those very Ultras who have been shunned by human society. However, those who are bribed by Dove keep this secret from their own people. For millions of years, the Dove remained the sole and legitimate Sect in the Rift.   Contrastingly, the Raven, emerging in the last century, was rooted in darkness and rapidly grew in influence. This Raven originated from a group of Ultras who defied the Treaty of Peaceful Co-existence between Ultras and Humans. Many of these dissenters had faced injustices in their youth, fueling their resentment towards humanity. The Raven was thus founded on the principle of advocating for the destruction of human civilization, and its members were also known as Hexen by humans.   The Dove established MAGE, an academy specifically designed for ultras. MAGE offers Ultras a unique environment to master their powers. Those Ultras who are unable to master their abilities will riskily be consumed by themselves, devolving into a state where they resemble, but are not quite, human. Followers of the Raven are generally barred from MAGE if their true identities are known by the Dove. Therefore Hexen often appear intimidating; some exhibit bizarre physical transformations due to power infusion, developing animalistic features that make them neither fully human nor animal. Some bear scars and horrific wounds across their bodies. Some even die for their uncontrollable powers.   MAGE is founded to uncover and interpret “the Script”, discovered a millennium ago when the first Ultras ventured into the canyon. In an ancient, deserted altar within the Rift, they found the Script. This Script, with its ability to foresee the future, appeared to have been awaiting their arrival. The talented Ultras soon unraveled the mysteries of the Script which chronicles ancient miracles and foreshadows the future. Nevertheless, the vast power contained in the Script, intertwined with the turbulent energy fluctuation of the world over thousand years, eventually led to its fracture. The fragments of the script scattered all over the world. What the Dove have discovered was only a part of these fragments. The knowledge and energy contained in just a few shards of the script have already shocked them. Consequently, the Dove are fervently searching for the remaining shards, and so do the Raven.",
+                "media": {
+                    "image1": "assets/InteractiveDesign/Project1/1.png",
+                    "image2": "assets/InteractiveDesign/Project1/3.png",
+                    "video": ""
+                }
+            },
+            "project2": {
+                "name": "Galaxxy Guardians",
+                "medium": "p5.js",
+                "year": "November, 2023",
+                "description": "In the distant future, the peaceful galaxy faces an imminent threat—the powerful Shovel Dominion, an alien force with a relentless thirst for power. In response, the Galactic Guardians, unite to form the last line of defense. In this game you become an elite Galactic Guardian pilots, commanding a spacecraft, tasked with stopping the Jima Empire, The fate of numerous worlds hangs in the balance, relying on your strategic skills to prevent the galaxy's doom.",
+                "designProcess": "In the game development process, I started with a gray box prototype to lay out the basic structure of the gameplay. The player enters a cockpit and interacts with a mentor character who provides game instuctions. Initially dissatisfied with my designed first person shooting mechanics, I shifted to a third-person perspective, featuring a spacecraft controlled by the player to confront incoming enemies. After refining the gameplay, I focused on visuals, creating a pixelated spacecraft and backgrounds with the help of generated images and Photoshop. Additionally, I incorporated a scoring system and implemented mouse interactions to restart the game based on the player’s outcome, enhancing engagement and replayability.",
+                "media": {
+                    "image1": "assets/InteractiveDesign/Project2/1.png",
+                    "image2": "assets/InteractiveDesign/Project2/3.png",
+                    "video": ""
+                }
+            },
+            "project3": {
+                "name": "SkyGlow",
+                "medium": "Arduino Uno, Cotton",
+                "year": "October, 2023",
+                "description": "In this project, I will design a cloud-shaped light that responds to sound stimuli. The cloud-shaped light involves integrating a sound sensor with LED rings that change color based on the surrounding volume—red for high noise levels and white for calm environments.",
+                "designProcess": "I began by soldering the LED rings and connecting them to an Arduino, adjusting the default sequential lighting code to suit my interactive design. I mounted the hardware onto a foam board, adding structural support with foam pieces and a second layer for additional LED placement. The design was then covered with cotton to mimic a cloud, achieving a visually appealing aesthetic.",
+                "media": {
+                    "image1": "assets/InteractiveDesign/Project3/1.JPG",
+                    "image2": "assets/InteractiveDesign/Project3/2.JPG",
+                    "video": ""
+                }
+            },
+            "project4": {
+                "name": "Butterflies",
+                "medium": "Digital",
+                "year": "September, 2024",
+                "description": "In my culture, there’s a prevalent saying about the transformation from a cocoon to a butterfly called “huajianchengdie”. This metaphor stands for new hope, profound change, and the onset of a splendid new chapter in life. This concept inspired me to choose butterflies as the focus of my website. It embodies the bravery required to leave the past behind and embrace the dawn of a fresh start.",
+                "designProcess": "I designed 5 different perspectives for this website. The first perspective shows the intricate patterns on their wings. The second perspective is to view the butterfly as a whole. The third perspective zoomed in on butterfly eggs. In the fourth perspective, I searched for the caterpillar and cocoon phases of butterflies. The fifth perspective guided me to artworks inspired by butterflies. The butterflies are associated with the Peking Opera.",
+                "media": {
+                    "image1": "assets/InteractiveDesign/Project4/1.png",
+                    "image2": "assets/InteractiveDesign/Project4/2.png",
+                    "image3": "assets/InteractiveDesign/Project4/3.png",
+                    "image4": "assets/InteractiveDesign/Project4/4.png",
+                    "image5": "assets/InteractiveDesign/Project4/5.png",
+                    "image6": "assets/InteractiveDesign/Project4/6.png",
+                    "video": ""
+                }
+            }
+        },
+        "Photography": {
+            "project1": {
+                "name": "Skyline",
+                "medium": "Digital",
+                "year": "September, 2024",
+                "description": "This set of photos captures the urban atmosphere of New York City, during the early evening. The images include iconic landmarks like the Neil Simon Theatre and the Empire State Building, alongside vibrant streets filled with cars, taxis, and pedestrians. The mood transitions from the glow of the sunset reflecting off buildings to the moon emerging between skyscrapers, offering a mix of urban life and architectural landmarks. The scenes convey a lively yet reflective cityscape, with elements of daily life and classic New York charm.",
+                "media": {
+                    "image1": "assets/Photography/Project1/1.jpg",
+                    "image2": "assets/Photography/Project1/2.jpg",
+                    "image3": "assets/Photography/Project1/3.jpg",
+                    "image4": "assets/Photography/Project1/4.jpg",
+                    "video": ""
+                }
+            },
+            "project2": {
+                "name": "Light",
+                "medium": "Digital",
+                "year": "October, 2024",
+                "description": "These photos, taken in Chinatown, highlight the unique atmosphere of this vibrant neighborhood. The images capture iconic elements like the intricate bridges seen through city foliage, bustling sidewalks, and graffiti-adorned walls. The mix of traditional Chinatown architecture and contemporary city life is evident, with scenes showing residents and visitors interacting with the urban environment. The photos convey the dynamic character of Chinatown, where cultural heritage meets the modern pace of New York City.",
+                "media": {
+                    "image1": "assets/Photography/Project2/1.jpg",
+                    "image2": "assets/Photography/Project2/2.jpg",
+                    "image3": "assets/Photography/Project2/3.jpg",
+                    "video": ""
+                }
+            }
+        },
+        "Sculpture": {
+            "project1": {
+                "name": "The Structure",
+                "scale": "12 in x 12 in x 12 in",
+                "medium": "Paper",
+                "year": "April, 2023",
+                "description": "In this project, I created a sculpture with a length, width, and height of 12 inches. The sculpture is assembled using a combination of black and white colors, and the entire project is constructed through interlocking paper pieces without the use of glue.",
+                "designProcess": "I started by cutting all of the paper into squares, then fold each piece of squared paper individually to create the different parts of my structure. Once I had completed folding each individual piece, I then insert them together to form the final shape.",
+                "media": {
+                    "image1": "assets/Sculpture/Project1/1.JPG",
+                    "image2": "assets/Sculpture/Project1/2.JPG",
+                    "video": ""
+                }
+            },
+            "project2": {
+                "name": "Low-poly Human Head",
+                "scale": "18 in x 10 in x 12 in",
+                "medium": "Glossy Paper",
+                "year": "May, 2023",
+                "description": "In this project, I am going to design a three-dimensional object using any material that is a minimum of 12 inches in size. The design can be a functional or artistic structure or a wearable item.I found great inspiration in Jaume Plensa’s “Water’s Soul,” which holds a prominent place on the edge of the Newport Pier in Jersey City. Standing tall at a magnificent height of 80 feet, positioned to face the Hudson River, “Water’s Soul” in alignment with Plensa’s powerful message, conveys the urgent reality that climate change has already begun to threaten our precious planet.Crafted from a combination of polyester resin, fiberglass, and marble dust, Water’s Soul takes the form of a magnificent white head sculpture. The purity of its color symbolizes the essence of water, reflecting its inherent beauty and tranquility.",
+                "designProcess": "To create the polyhedral head sculpture, I started by drawing each individual part of the expanded view of the head on glossy paper, ensuring that it was scaled up enough for the final piece to be approximately 18 inches. Using scissors and an Olfa knife, I carefully cut out each individual piece. Once all the pieces were cut, I employed a bone folder to fold them. The use of a bone folder allowed me to create precise and clean creases without causing any wrinkles along the edges of the glossy paper. Since glossy paper is stiffer than the regular paper I use for prototyping, the bone folder proved to be a valuable tool that made the folding process significantly easier and more efficient.After folding each part, I proceeded to carefully assemble them by referencing my prototype. To make the assembly process easier, I numbered each piece before cutting them out. This numbering allowed me to quickly identify the correct sequence for sticking the pieces together. I constructed the head part and the neck part separately, which presented some difficulties later on when joining these larger sections together.",
+                "media": {
+                    "image1": "assets/Sculpture/Project2/1.JPG",
+                    
+                    "image3": "assets/Sculpture/Project2/3.JPG",
+                    "image4": "assets/Sculpture/Project2/4.JPG",
+                    "video": ""
+                }
+            }
+        }
+    },
+    "resume": {
+        "workExperience": {
+            "company": "Geovis Technology Co., Ltd.",
+            "jobTitle": "President Office",
+            "dates": "July - August, 2024"
+        },
+        "education": {
+            "institution": "Parsons School of Design",
+            "degree": "Bachelor of Fine Arts",
+            "yearGraduated": "May, 2026"
+        }
+    },
+    "contact": {
+        "email": "hanx253@newschool.edu",
+        "phoneNumber": "718-508-2486"
+    }
+}

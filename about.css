@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'TitleFont';
+    src: url('/fonts/cursyger.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SecondFont';
+    src: url('/fonts/Stepalange.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'SecondFont', sans-serif;
+    background-color: rgb(25, 25, 25);
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+.Container {
+    max-width: 800px;
+    margin: 90px auto;
+}
+
+h2 {
+    font-family: 'TitleFont', sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contactContainer a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contactContainer a:hover {
+    color: #00BFFF;
+}
+
+.arrow {
+    font-family: 'SecondFont', sans-serif;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    font-size: 80px;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.arrow:hover {
+    color: #00BFFF;
+    transform: scale(1.2);
+}
