@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'TitleFont';
-    src: url('../fonts/cursyger.ttf') format('truetype');
+    src: url('https://rawcdn.githack.com/laiyi-ohlsen/elena-test/8f01101f0d229f7b90c86cee21cd8a0bfa3923e5/fonts/cursyger.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'SecondFont';
-    src: url('../fonts/stepalange.otf') format('opentype');
+    src: url('https://rawcdn.githack.com/laiyi-ohlsen/elena-test/8f01101f0d229f7b90c86cee21cd8a0bfa3923e5/fonts/Stepalange.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
